@@ -17,7 +17,18 @@ class sumOfMatrices{
         }
       }
       int s[][] = new int[r][c];
-      for(int i=0;i)
+      for(int i=0;i<r;i++){
+          for(int j=0;j<c;j++){
+              s[i][j]=a[i][j]+b[i][j];
+          }
+      }
+      System.out.println("Added matrix is ");
+      for(int i=0;i<r;i++){
+          for(int j=0;j<c;j++){
+              System.out.println(s[i][j]+" ");}
+              System.out.println();}
+              
+          
     
       
     }
