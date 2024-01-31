@@ -1,7 +1,9 @@
 import java.util.Scanner;
+//i am kshitij
 class ATM{
   public static void main(String args[])
   {Scanner sc=new Scanner(System.in);
+  System.out.println("HI");
   System.out.println("Enter 1 for withdrawing money.\nEnter 2 for depositing money.\nEnter 3 to check bank balance.\n");
   int n=sc.nextInt();
   int amt,money=10000;
